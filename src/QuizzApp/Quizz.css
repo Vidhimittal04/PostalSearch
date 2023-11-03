@@ -51,16 +51,24 @@ body {
 
 button {
   width: 100%;
+  height: 20%;
   font-size: 16px;
   color: #ffffff;
   background-color: #252d4a;
   border-radius: 15px;
   display: flex;
   padding: 5px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
+}
+/* Add this to your Quizz.css file */
+.progress-bar {
+  width: 0%;
+  height: 10px;
+  background-color: white; /* Change the color as desired */
+  transition: width 0.5s; /* Add a smooth transition effect */
 }
 
 .correct {
